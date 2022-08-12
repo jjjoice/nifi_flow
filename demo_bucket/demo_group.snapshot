@@ -49,6 +49,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "c0fa50d0-377f-30bf-8426-b592bfc15074",
+            "instanceIdentifier" : "1d9730c6-743e-1858-a5e4-a5b253729885",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "67e964aa-c695-33d3-9559-83b20b12ec17",
+          "instanceIdentifier" : "1d9730c7-743e-1858-1024-d6c3e8e6bbd2",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
+            "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "4d0a6f37-f950-3b2b-a6d7-be661067881b",
             "instanceIdentifier" : "2858743e-1d97-30c6-fc2c-2c7fa69508e1",
             "name" : "LogMessage",
@@ -245,6 +278,61 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "c0fa50d0-377f-30bf-8426-b592bfc15074",
+          "instanceIdentifier" : "1d9730c6-743e-1858-a5e4-a5b253729885",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 248.0,
+            "y" : 384.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "4d0a6f37-f950-3b2b-a6d7-be661067881b",
           "instanceIdentifier" : "2858743e-1d97-30c6-fc2c-2c7fa69508e1",
           "maxBackoffPeriod" : "10 mins",
@@ -252,7 +340,7 @@
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 808.0,
-            "y" : 320.0
+            "y" : 312.0
           },
           "properties" : {
             "log-level" : "info"
