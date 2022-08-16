@@ -1,0 +1,6 @@
+flows:
+  3725400b-b6eb-4540-a300-e36d78f24425: {ver: 1, file: decoder.snapshot, comments: '',
+    author: anonymous, created: 1660646899435, flowName: decoder, flowDesc: fow for
+      decode}
+layoutVer: 1
+bucketId: 3182cc12-6f3d-4e9d-89fc-f983dcc49d08
