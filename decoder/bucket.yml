@@ -1,0 +1,6 @@
+flows:
+  b15d3ef7-0d97-45d6-ab33-9c0aeaac5c1e: {ver: 1, file: decoer.snapshot, comments: initial
+      version, author: anonymous, created: 1660649039416, flowName: decoer, flowDesc: flow
+      for decoder}
+layoutVer: 1
+bucketId: 1745c59f-1fdb-47dd-a696-7cad94fd0aa9
