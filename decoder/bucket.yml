@@ -1,6 +1,6 @@
 flows:
-  e56419ff-db07-4fb1-9d33-0977469c1074: {ver: 2, file: decoder.snapshot, comments: config
-      changed, author: anonymous, created: 1660657540925, flowName: decoder, flowDesc: flow
-      for decoder}
+  e56419ff-db07-4fb1-9d33-0977469c1074: {ver: 3, file: decoder.snapshot, comments: custom
+      text field changed, author: anonymous, created: 1660657900229, flowName: decoder,
+    flowDesc: flow for decoder}
 layoutVer: 1
 bucketId: 61eda580-f49e-458d-af26-c1279f23625c
