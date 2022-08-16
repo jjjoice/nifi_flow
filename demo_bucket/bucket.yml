@@ -1,5 +1,6 @@
 flows:
-  92fef218-9f1a-41b6-939a-6dbdcaffec53: {ver: 3, file: demo_group.snapshot, comments: '',
-    author: anonymous, created: 1660323908416, flowName: demo_group, flowDesc: ''}
+  92fef218-9f1a-41b6-939a-6dbdcaffec53: {ver: 4, file: demo_group.snapshot, comments: Log
+      messege procesor eleyed, author: anonymous, created: 1660623188489, flowName: demo_group,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: b86f2365-85cd-4e0f-9bc8-49b7a4affe97
