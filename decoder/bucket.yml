@@ -1,7 +1,5 @@
 flows:
   d36618fd-7562-4abc-bc4d-7b7bb987e93c: {ver: 1, file: decoder1.snapshot, comments: '',
     author: anonymous, created: 1660645180992, flowName: decoder1, flowDesc: ''}
-  6b8fd1a5-c689-4759-80e2-468f5618942a: {ver: 1, file: decoder.snapshot, comments: '',
-    author: anonymous, created: 1660627428591, flowName: decoder, flowDesc: ''}
 layoutVer: 1
 bucketId: a653578c-8b25-43a3-a90f-0737afe4834f
