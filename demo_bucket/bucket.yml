@@ -1,6 +1,6 @@
 flows:
-  92fef218-9f1a-41b6-939a-6dbdcaffec53: {ver: 6, file: demo_group.snapshot, comments: generate
-      flow-file config changed, author: anonymous, created: 1660623409036, flowName: demo_group,
+  92fef218-9f1a-41b6-939a-6dbdcaffec53: {ver: 7, file: demo_group.snapshot, comments: log
+      message added, author: anonymous, created: 1660624836113, flowName: demo_group,
     flowDesc: ''}
 layoutVer: 1
 bucketId: b86f2365-85cd-4e0f-9bc8-49b7a4affe97

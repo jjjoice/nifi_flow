@@ -82,6 +82,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
+            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "4bf145b7-ccc7-370c-8749-40bd323f9a50",
+          "instanceIdentifier" : "743e1859-30cb-1d97-bc42-7d1d241010de",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
+            "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "4d0a6f37-f950-3b2b-a6d7-be661067881b",
             "instanceIdentifier" : "2858743e-1d97-30c6-fc2c-2c7fa69508e1",
             "name" : "LogMessage",
@@ -264,6 +297,61 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
+          "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 328.0,
+            "y" : 416.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
