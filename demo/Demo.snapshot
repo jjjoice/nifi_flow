@@ -15,16 +15,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "id" : "751a5af8-52de-3abe-8229-f13013620dc4",
+            "instanceIdentifier" : "ad0aaede-0182-1000-6421-f21a27a04459",
+            "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "4f006e85-de11-369f-8478-b52eb12be90a",
-          "instanceIdentifier" : "30cb1dd3-185d-143e-e69d-778b7f541467",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "identifier" : "f14227c8-d347-3cc0-8092-afead12e3eb1",
+          "instanceIdentifier" : "ad0ac0a9-0182-1000-874b-aa2f77baf66b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -34,9 +34,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
             "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
-            "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
+            "instanceIdentifier" : "57f5bafb-8d56-3ce9-706d-5d2bb3b7ac84",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
           },
@@ -48,29 +48,29 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
             "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
+            "instanceIdentifier" : "024ec10f-24e2-319e-cabe-76c7c49edbce",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "b0f8f7c8-45f4-3639-8dbe-fcf618a56172",
-          "instanceIdentifier" : "30cb1dd4-185d-143e-c79e-d3978dbb4fb2",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "identifier" : "18c9c905-46e2-3827-9c68-fae508d93f80",
+          "instanceIdentifier" : "ad0b0671-0182-1000-9776-36f81120949b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
+          "selectedRelationships" : [ "nonzero status" ],
           "source" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "id" : "751a5af8-52de-3abe-8229-f13013620dc4",
+            "instanceIdentifier" : "ad0aaede-0182-1000-6421-f21a27a04459",
+            "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -81,29 +81,29 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
             "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
+            "instanceIdentifier" : "d1773642-1355-33bf-e26d-15aaee747917",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "236b31cc-49df-3db0-9b3a-1ff4411cd1d3",
-          "instanceIdentifier" : "30cb1dd5-185d-143e-a81c-bd0731df43f0",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "identifier" : "ca9c29b3-ff93-3cf7-8582-83e1ecc4089c",
+          "instanceIdentifier" : "ad0b1470-0182-1000-0c10-16a4df0098cb",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
+          "selectedRelationships" : [ "output stream" ],
           "source" : {
             "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
+            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "id" : "751a5af8-52de-3abe-8229-f13013620dc4",
+            "instanceIdentifier" : "ad0aaede-0182-1000-6421-f21a27a04459",
+            "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -125,47 +125,35 @@
             },
             "type" : "org.apache.nifi.dbcp.DBCPService"
           } ],
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
           "identifier" : "335cedec-c6e2-3160-b7aa-adaba0530485",
-          "instanceIdentifier" : "30cb1dcb-185d-143e-1a2a-ab1041582a68",
+          "instanceIdentifier" : "9d76cbe6-8baf-30b0-a19f-66f1df33fa5c",
           "name" : "DemoDBCPConnectionPool",
           "properties" : {
-            "Database Connection URL" : "jdbc:mysql://localhost:3306/nifi?allowLoadLocalInfile=true",
-            "Database Driver Class Name" : "com.mysql.jdbc.Driver",
-            "Database User" : "hadoopuser",
-            "Max Total Connections" : "8",
-            "Max Wait Time" : "500 millis",
-            "database-driver-locations" : "/opt/mysql-connector-java-5.1.49.jar",
-            "dbcp-max-conn-lifetime" : "-1",
-            "dbcp-max-idle-conns" : "8",
-            "dbcp-min-evictable-idle-time" : "30 mins",
             "dbcp-min-idle-conns" : "0",
+            "Max Wait Time" : "500 millis",
+            "Database Driver Class Name" : "com.mysql.jdbc.Driver",
+            "dbcp-min-evictable-idle-time" : "30 mins",
+            "Max Total Connections" : "8",
+            "dbcp-max-conn-lifetime" : "-1",
+            "Database Connection URL" : "jdbc:mysql://localhost:3306/nifi?allowLoadLocalInfile=true",
+            "dbcp-time-between-eviction-runs" : "-1",
+            "Database User" : "hadoopuser",
             "dbcp-soft-min-evictable-idle-time" : "-1",
-            "dbcp-time-between-eviction-runs" : "-1"
+            "database-driver-locations" : "/opt/mysql-connector-java-5.1.49.jar",
+            "dbcp-max-idle-conns" : "8"
           },
           "propertyDescriptors" : {
-            "Database Connection URL" : {
-              "displayName" : "Database Connection URL",
+            "kerberos-password" : {
+              "displayName" : "Kerberos Password",
               "identifiesControllerService" : false,
-              "name" : "Database Connection URL",
-              "sensitive" : false
+              "name" : "kerberos-password",
+              "sensitive" : true
             },
-            "Database Driver Class Name" : {
-              "displayName" : "Database Driver Class Name",
+            "dbcp-min-idle-conns" : {
+              "displayName" : "Minimum Idle Connections",
               "identifiesControllerService" : false,
-              "name" : "Database Driver Class Name",
-              "sensitive" : false
-            },
-            "Database User" : {
-              "displayName" : "Database User",
-              "identifiesControllerService" : false,
-              "name" : "Database User",
-              "sensitive" : false
-            },
-            "Max Total Connections" : {
-              "displayName" : "Max Total Connections",
-              "identifiesControllerService" : false,
-              "name" : "Max Total Connections",
+              "name" : "dbcp-min-idle-conns",
               "sensitive" : false
             },
             "Max Wait Time" : {
@@ -174,16 +162,76 @@
               "name" : "Max Wait Time",
               "sensitive" : false
             },
-            "Password" : {
-              "displayName" : "Password",
+            "Database Driver Class Name" : {
+              "displayName" : "Database Driver Class Name",
               "identifiesControllerService" : false,
-              "name" : "Password",
-              "sensitive" : true
+              "name" : "Database Driver Class Name",
+              "sensitive" : false
+            },
+            "dbcp-min-evictable-idle-time" : {
+              "displayName" : "Minimum Evictable Idle Time",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-min-evictable-idle-time",
+              "sensitive" : false
+            },
+            "kerberos-principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "kerberos-principal",
+              "sensitive" : false
+            },
+            "Max Total Connections" : {
+              "displayName" : "Max Total Connections",
+              "identifiesControllerService" : false,
+              "name" : "Max Total Connections",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "dbcp-max-conn-lifetime" : {
+              "displayName" : "Max Connection Lifetime",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-max-conn-lifetime",
+              "sensitive" : false
             },
             "Validation-query" : {
               "displayName" : "Validation query",
               "identifiesControllerService" : false,
               "name" : "Validation-query",
+              "sensitive" : false
+            },
+            "Database Connection URL" : {
+              "displayName" : "Database Connection URL",
+              "identifiesControllerService" : false,
+              "name" : "Database Connection URL",
+              "sensitive" : false
+            },
+            "dbcp-time-between-eviction-runs" : {
+              "displayName" : "Time Between Eviction Runs",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-time-between-eviction-runs",
+              "sensitive" : false
+            },
+            "Database User" : {
+              "displayName" : "Database User",
+              "identifiesControllerService" : false,
+              "name" : "Database User",
+              "sensitive" : false
+            },
+            "kerberos-user-service" : {
+              "displayName" : "Kerberos User Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-user-service",
+              "sensitive" : false
+            },
+            "dbcp-soft-min-evictable-idle-time" : {
+              "displayName" : "Soft Minimum Evictable Idle Time",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-soft-min-evictable-idle-time",
               "sensitive" : false
             },
             "database-driver-locations" : {
@@ -196,65 +244,17 @@
               },
               "sensitive" : false
             },
-            "dbcp-max-conn-lifetime" : {
-              "displayName" : "Max Connection Lifetime",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-max-conn-lifetime",
-              "sensitive" : false
-            },
             "dbcp-max-idle-conns" : {
               "displayName" : "Max Idle Connections",
               "identifiesControllerService" : false,
               "name" : "dbcp-max-idle-conns",
               "sensitive" : false
             },
-            "dbcp-min-evictable-idle-time" : {
-              "displayName" : "Minimum Evictable Idle Time",
+            "Password" : {
+              "displayName" : "Password",
               "identifiesControllerService" : false,
-              "name" : "dbcp-min-evictable-idle-time",
-              "sensitive" : false
-            },
-            "dbcp-min-idle-conns" : {
-              "displayName" : "Minimum Idle Connections",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-min-idle-conns",
-              "sensitive" : false
-            },
-            "dbcp-soft-min-evictable-idle-time" : {
-              "displayName" : "Soft Minimum Evictable Idle Time",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-soft-min-evictable-idle-time",
-              "sensitive" : false
-            },
-            "dbcp-time-between-eviction-runs" : {
-              "displayName" : "Time Between Eviction Runs",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-time-between-eviction-runs",
-              "sensitive" : false
-            },
-            "kerberos-credentials-service" : {
-              "displayName" : "Kerberos Credentials Service",
-              "identifiesControllerService" : true,
-              "name" : "kerberos-credentials-service",
-              "sensitive" : false
-            },
-            "kerberos-password" : {
-              "displayName" : "Kerberos Password",
-              "identifiesControllerService" : false,
-              "name" : "kerberos-password",
+              "name" : "Password",
               "sensitive" : true
-            },
-            "kerberos-principal" : {
-              "displayName" : "Kerberos Principal",
-              "identifiesControllerService" : false,
-              "name" : "kerberos-principal",
-              "sensitive" : false
-            },
-            "kerberos-user-service" : {
-              "displayName" : "Kerberos User Service",
-              "identifiesControllerService" : true,
-              "name" : "kerberos-user-service",
-              "sensitive" : false
             }
           },
           "scheduledState" : "DISABLED",
@@ -266,23 +266,23 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+        "identifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "9258c2ea-0182-1000-1f12-2139f0d08736",
+        "instanceIdentifier" : "ace0363f-0182-1000-5499-01fcb3cd0195",
         "labels" : [ ],
         "name" : "Demo",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 192.0,
-          "y" : 24.0
+          "x" : -264.0,
+          "y" : 464.0
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "original" ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-scripting-nar",
+            "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
             "version" : "1.17.0"
           },
@@ -290,51 +290,71 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-          "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "identifier" : "751a5af8-52de-3abe-8229-f13013620dc4",
+          "instanceIdentifier" : "ad0aaede-0182-1000-6421-f21a27a04459",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "ExecuteScript",
+          "name" : "ExecuteStreamCommand",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 312.0,
-            "y" : 408.0
+            "x" : 320.0,
+            "y" : 432.0
           },
           "properties" : {
-            "Script Engine" : "python",
-            "Script File" : "/home/techuser/helloworld.py"
+            "argumentsStrategy" : "Command Arguments Property",
+            "Max Attribute Length" : "256",
+            "Command Path" : "python",
+            "Argument Delimiter" : ";",
+            "Ignore STDIN" : "false",
+            "Command Arguments" : "/home/techuser/python_sleep.py"
           },
           "propertyDescriptors" : {
-            "Module Directory" : {
-              "displayName" : "Module Directory",
+            "argumentsStrategy" : {
+              "displayName" : "Command Arguments Strategy",
               "identifiesControllerService" : false,
-              "name" : "Module Directory",
-              "resourceDefinition" : {
-                "cardinality" : "MULTIPLE",
-                "resourceTypes" : [ "DIRECTORY", "FILE" ]
-              },
+              "name" : "argumentsStrategy",
               "sensitive" : false
             },
-            "Script Body" : {
-              "displayName" : "Script Body",
+            "Max Attribute Length" : {
+              "displayName" : "Max Attribute Length",
               "identifiesControllerService" : false,
-              "name" : "Script Body",
+              "name" : "Max Attribute Length",
               "sensitive" : false
             },
-            "Script Engine" : {
-              "displayName" : "Script Engine",
+            "Command Path" : {
+              "displayName" : "Command Path",
               "identifiesControllerService" : false,
-              "name" : "Script Engine",
+              "name" : "Command Path",
               "sensitive" : false
             },
-            "Script File" : {
-              "displayName" : "Script File",
+            "Working Directory" : {
+              "displayName" : "Working Directory",
               "identifiesControllerService" : false,
-              "name" : "Script File",
-              "resourceDefinition" : {
-                "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE" ]
-              },
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Output Destination Attribute" : {
+              "displayName" : "Output Destination Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Output Destination Attribute",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Ignore STDIN" : {
+              "displayName" : "Ignore STDIN",
+              "identifiesControllerService" : false,
+              "name" : "Ignore STDIN",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
               "sensitive" : false
             }
           },
@@ -345,7 +365,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.script.ExecuteScript",
+          "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
@@ -360,9 +380,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
           "identifier" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
-          "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
+          "instanceIdentifier" : "57f5bafb-8d56-3ce9-706d-5d2bb3b7ac84",
           "maxBackoffPeriod" : "10 mins",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -371,24 +391,18 @@
             "y" : 168.0
           },
           "properties" : {
-            "Batch Size" : "1",
-            "Data Format" : "Text",
-            "File Size" : "0B",
-            "Unique FlowFiles" : "false",
             "character-set" : "UTF-8",
-            "generate-ff-custom-text" : "abc,bfg,dd"
+            "File Size" : "0B",
+            "generate-ff-custom-text" : "abc,bfg,dd",
+            "Batch Size" : "1",
+            "Unique FlowFiles" : "false",
+            "Data Format" : "Text"
           },
           "propertyDescriptors" : {
-            "Batch Size" : {
-              "displayName" : "Batch Size",
+            "character-set" : {
+              "displayName" : "Character Set",
               "identifiesControllerService" : false,
-              "name" : "Batch Size",
-              "sensitive" : false
-            },
-            "Data Format" : {
-              "displayName" : "Data Format",
-              "identifiesControllerService" : false,
-              "name" : "Data Format",
+              "name" : "character-set",
               "sensitive" : false
             },
             "File Size" : {
@@ -397,16 +411,10 @@
               "name" : "File Size",
               "sensitive" : false
             },
-            "Unique FlowFiles" : {
-              "displayName" : "Unique FlowFiles",
+            "mime-type" : {
+              "displayName" : "Mime Type",
               "identifiesControllerService" : false,
-              "name" : "Unique FlowFiles",
-              "sensitive" : false
-            },
-            "character-set" : {
-              "displayName" : "Character Set",
-              "identifiesControllerService" : false,
-              "name" : "character-set",
+              "name" : "mime-type",
               "sensitive" : false
             },
             "generate-ff-custom-text" : {
@@ -415,10 +423,22 @@
               "name" : "generate-ff-custom-text",
               "sensitive" : false
             },
-            "mime-type" : {
-              "displayName" : "Mime Type",
+            "Batch Size" : {
+              "displayName" : "Batch Size",
               "identifiesControllerService" : false,
-              "name" : "mime-type",
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
               "sensitive" : false
             }
           },
@@ -426,7 +446,7 @@
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "120 sec",
+          "schedulingPeriod" : "300 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
@@ -444,9 +464,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
           "identifier" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-          "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
+          "instanceIdentifier" : "d1773642-1355-33bf-e26d-15aaee747917",
           "maxBackoffPeriod" : "10 mins",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
@@ -458,16 +478,16 @@
             "log-level" : "info"
           },
           "propertyDescriptors" : {
-            "log-level" : {
-              "displayName" : "Log Level",
-              "identifiesControllerService" : false,
-              "name" : "log-level",
-              "sensitive" : false
-            },
             "log-message" : {
               "displayName" : "Log message",
               "identifiesControllerService" : false,
               "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
               "sensitive" : false
             },
             "log-prefix" : {
@@ -499,9 +519,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
           "identifier" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-          "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
+          "instanceIdentifier" : "024ec10f-24e2-319e-cabe-76c7c49edbce",
           "maxBackoffPeriod" : "10 mins",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
@@ -513,16 +533,16 @@
             "log-level" : "info"
           },
           "propertyDescriptors" : {
-            "log-level" : {
-              "displayName" : "Log Level",
-              "identifiesControllerService" : false,
-              "name" : "log-level",
-              "sensitive" : false
-            },
             "log-message" : {
               "displayName" : "Log message",
               "identifiesControllerService" : false,
               "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
               "sensitive" : false
             },
             "log-prefix" : {
@@ -545,6 +565,7 @@
         "remoteProcessGroups" : [ ],
         "variables" : { }
       },
+      "flowEncodingVersion" : "1.0",
       "parameterContexts" : { }
     }
   }
