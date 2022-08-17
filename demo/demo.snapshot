@@ -500,7 +500,7 @@
             "Command Path" : "python",
             "Argument Delimiter" : ";",
             "Ignore STDIN" : "false",
-            "Command Arguments" : "/home/techuser/python_sleep.py"
+            "Command Arguments" : "/home/techuser/helloworld.py"
           },
           "propertyDescriptors" : {
             "argumentsStrategy" : {
