@@ -378,8 +378,8 @@
         "name" : "RuleEngine",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 880.0,
-          "y" : 472.0
+          "x" : 736.0,
+          "y" : 296.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -402,8 +402,8 @@
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 448.0,
-            "y" : 56.0
+            "x" : 464.0,
+            "y" : 112.0
           },
           "properties" : {
             "character-set" : "UTF-8",
@@ -460,7 +460,7 @@
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "300 sec",
+          "schedulingPeriod" : "180 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
