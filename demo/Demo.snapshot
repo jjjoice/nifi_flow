@@ -496,7 +496,7 @@
           },
           "properties" : {
             "Argument Delimiter" : ";",
-            "Command Arguments" : "/home/techuser/python_sleep.py",
+            "Command Arguments" : "/home/techuser/helloworld.py",
             "Command Path" : "python",
             "Ignore STDIN" : "false",
             "Max Attribute Length" : "256",
