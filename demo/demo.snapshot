@@ -312,7 +312,7 @@
             "Delimiter Strategy" : "Do Not Use Delimiters",
             "Merge Format" : "Binary Concatenation",
             "mergecontent-metadata-strategy" : "Do Not Merge Uncommon Metadata",
-            "Minimum Number of Entries" : "2"
+            "Minimum Number of Entries" : "1"
           },
           "propertyDescriptors" : {
             "Keep Path" : {
