@@ -89,7 +89,7 @@
             "File Size" : "0B",
             "Unique FlowFiles" : "false",
             "character-set" : "UTF-8",
-            "generate-ff-custom-text" : "helloworld.txt"
+            "generate-ff-custom-text" : "abcd.txt"
           },
           "propertyDescriptors" : {
             "Batch Size" : {

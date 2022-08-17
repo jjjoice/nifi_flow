@@ -1,5 +1,5 @@
 flows:
-  5950483a-4ce7-4d2d-b347-ecfdc9178224: {ver: 5, file: 6d_flow.snapshot, comments: initial
-      version, author: anonymous, created: 1660708192924, flowName: 6d_flow, flowDesc: ''}
+  5950483a-4ce7-4d2d-b347-ecfdc9178224: {ver: 6, file: 6d_flow.snapshot, comments: Added
+      abcd.txt, author: anonymous, created: 1660708436053, flowName: 6d_flow, flowDesc: ''}
 layoutVer: 1
 bucketId: 28d25a90-ff94-493d-b2e5-8a668d1acffd
