@@ -82,6 +82,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "d5743dc3-310c-3c01-814d-caab9ff719d6",
+            "instanceIdentifier" : "30cb1dda-185d-143e-4da9-01f07c3f4db8",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "db9c80a0-699f-30a8-b765-36e507f3c810",
+          "instanceIdentifier" : "30cb1ddb-185d-143e-1a2c-1327814f4307",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
+            "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
             "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
             "name" : "LogMessage",
@@ -298,7 +331,7 @@
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 312.0,
-            "y" : 168.0
+            "y" : 160.0
           },
           "properties" : {
             "Batch Size" : "1",
@@ -438,6 +471,61 @@
           "position" : {
             "x" : 0.0,
             "y" : 656.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "d5743dc3-310c-3c01-814d-caab9ff719d6",
+          "instanceIdentifier" : "30cb1dda-185d-143e-4da9-01f07c3f4db8",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 952.0,
+            "y" : 168.0
           },
           "properties" : {
             "log-level" : "info"
