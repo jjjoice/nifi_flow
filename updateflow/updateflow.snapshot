@@ -117,7 +117,7 @@
             "y" : 320.0
           },
           "properties" : {
-            "filename" : "HelloWorld.csv",
+            "filename" : "Hello.csv",
             "Store State" : "Do not store state",
             "canonical-value-lookup-cache-size" : "100"
           },
