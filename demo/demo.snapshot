@@ -301,7 +301,7 @@
             "y" : 408.0
           },
           "properties" : {
-            "Script File" : "/home/techuser/python_sleep.py",
+            "Script File" : "/home/techuser/helloworld.py",
             "Script Engine" : "python"
           },
           "propertyDescriptors" : {
@@ -426,7 +426,7 @@
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "300 sec",
+          "schedulingPeriod" : "120 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
