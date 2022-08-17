@@ -1,12 +1,6 @@
 flows:
-  fa035b45-6b15-456c-b74f-6ef051bd5a25:
-    ver: 3
-    file: RuleEngine.snapshot
-    comments: |
-      Change sql Query
-    author: anonymous
-    created: 1660717280566
-    flowName: RuleEngine
-    flowDesc: ''
+  fa035b45-6b15-456c-b74f-6ef051bd5a25: {ver: 4, file: RuleEngine.snapshot, comments: Retry
+      Flow File Added, author: anonymous, created: 1660726858093, flowName: RuleEngine,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 90eb834b-314c-43d6-aeef-3064cb4be6f4

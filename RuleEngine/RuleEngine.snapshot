@@ -16,15 +16,15 @@
           "destination" : {
             "comments" : "",
             "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
-            "id" : "198c717b-29a1-3ece-9019-806bd839e266",
-            "instanceIdentifier" : "30cb1da8-185d-143e-78f7-80c73be24249",
-            "name" : "LogMessage",
+            "id" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+            "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+            "name" : "RetryFlowFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
-          "identifier" : "637ea6c8-8187-39c6-9aef-18c1f6dbfaa2",
-          "instanceIdentifier" : "30cb1da9-185d-143e-273e-eca7053ab6c0",
+          "identifier" : "ca097166-ade4-3be5-82e5-4cd0cec44b91",
+          "instanceIdentifier" : "30cb1dac-185d-143e-c616-f3fce8b0d564",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -56,8 +56,80 @@
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
-          "identifier" : "01b9de05-3b2a-3092-84d8-41dea50a2a4c",
-          "instanceIdentifier" : "30cb1da6-185d-143e-8154-48bbfa009440",
+          "identifier" : "5f1ae78f-c14f-32d9-bc95-cd70b5063371",
+          "instanceIdentifier" : "30cb1dad-185d-143e-b6f0-ce523f064f4b",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+            "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+            "name" : "RetryFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 941.0,
+            "y" : 599.0
+          }, {
+            "x" : 941.0,
+            "y" : 649.0
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+            "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+            "name" : "RetryFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+          "identifier" : "bebd363a-462b-37c8-9bc5-0a5a7de5faf3",
+          "instanceIdentifier" : "30cb1db0-185d-143e-1d0e-e27b823bd510",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "retry" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+            "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+            "name" : "RetryFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "756093e6-2602-396c-9303-df5b221ddabb",
+            "instanceIdentifier" : "30cb1da5-185d-143e-0d9d-0ecce3f041e5",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+          "identifier" : "33937bb2-011d-3eb9-9d79-f64aeebdc2e9",
+          "instanceIdentifier" : "30cb1dae-185d-143e-ea56-06f7cae05840",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -71,6 +143,39 @@
             "id" : "b0b0bd84-f789-3e9c-9588-c2ddef713b0a",
             "instanceIdentifier" : "30cb1da3-185d-143e-3478-3d112f38c752",
             "name" : "ExecuteSQL",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "198c717b-29a1-3ece-9019-806bd839e266",
+            "instanceIdentifier" : "30cb1da8-185d-143e-78f7-80c73be24249",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+          "identifier" : "cf6a5870-deb2-3752-b952-ce01c22029df",
+          "instanceIdentifier" : "30cb1db1-185d-143e-fc5a-a7a4eb1651ad",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "retries_exceeded" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+            "id" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+            "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+            "name" : "RetryFlowFile",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -394,7 +499,7 @@
             "compression-format" : "NONE",
             "esql-output-batch-size" : "0",
             "esql-fetch-size" : "0",
-            "SQL select query" : "select CUST_CODE from CUSTOMER limit 1;",
+            "SQL select query" : "select CUST_CODE from CUSTOMER;",
             "dbf-normalize" : "false"
           },
           "propertyDescriptors" : {
@@ -512,8 +617,8 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 232.0,
-            "y" : 624.0
+            "x" : 16.0,
+            "y" : 568.0
           },
           "properties" : {
             "log-level" : "info"
@@ -561,14 +666,85 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
+          "identifier" : "a8ec3950-6528-3903-a8e9-13c2b56fd962",
+          "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "RetryFlowFile",
+          "penaltyDuration" : "300 sec",
+          "position" : {
+            "x" : 472.0,
+            "y" : 560.0
+          },
+          "properties" : {
+            "penalize-retries" : "true",
+            "maximum-retries" : "3",
+            "Fail on Non-numerical Overwrite" : "false",
+            "reuse-mode" : "fail",
+            "retry-attribute" : "flowfile.retries"
+          },
+          "propertyDescriptors" : {
+            "penalize-retries" : {
+              "displayName" : "Penalize Retries",
+              "identifiesControllerService" : false,
+              "name" : "penalize-retries",
+              "sensitive" : false
+            },
+            "maximum-retries" : {
+              "displayName" : "Maximum Retries",
+              "identifiesControllerService" : false,
+              "name" : "maximum-retries",
+              "sensitive" : false
+            },
+            "Fail on Non-numerical Overwrite" : {
+              "displayName" : "Fail on Non-numerical Overwrite",
+              "identifiesControllerService" : false,
+              "name" : "Fail on Non-numerical Overwrite",
+              "sensitive" : false
+            },
+            "reuse-mode" : {
+              "displayName" : "Reuse Mode",
+              "identifiesControllerService" : false,
+              "name" : "reuse-mode",
+              "sensitive" : false
+            },
+            "retry-attribute" : {
+              "displayName" : "Retry Attribute",
+              "identifiesControllerService" : false,
+              "name" : "retry-attribute",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.RetryFlowFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "8717ce47-b7ba-38f6-9a01-9fb46c2b35b4",
           "identifier" : "198c717b-29a1-3ece-9019-806bd839e266",
           "instanceIdentifier" : "30cb1da8-185d-143e-78f7-80c73be24249",
           "maxBackoffPeriod" : "10 mins",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 792.0,
-            "y" : 632.0
+            "x" : 864.0,
+            "y" : 744.0
           },
           "properties" : {
             "log-level" : "info"
