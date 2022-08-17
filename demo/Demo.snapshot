@@ -16,48 +16,15 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
-            "name" : "LogMessage",
+            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
+            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
+            "name" : "ExecuteScript",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "89f90a97-c2ca-3123-8ee5-d7d114ae82be",
-          "instanceIdentifier" : "30cb1dce-185d-143e-8409-dfb92e11d24c",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
-            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
-            "name" : "MergeContent",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
-            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
-            "name" : "MergeContent",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "60db356c-ad40-3e26-9a9a-d110c71e9f9a",
-          "instanceIdentifier" : "30cb1dcd-185d-143e-1b79-5fbdc67a3df2",
+          "identifier" : "4f006e85-de11-369f-8478-b52eb12be90a",
+          "instanceIdentifier" : "30cb1dd3-185d-143e-e69d-778b7f541467",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -82,6 +49,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
+            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "b0f8f7c8-45f4-3639-8dbe-fcf618a56172",
+          "instanceIdentifier" : "30cb1dd4-185d-143e-c79e-d3978dbb4fb2",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
+            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
+            "name" : "ExecuteScript",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
             "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
             "name" : "LogMessage",
@@ -89,21 +89,21 @@
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "e9c4d5f4-ad09-37a4-9e36-92b6da79ba4b",
-          "instanceIdentifier" : "30cb1dd1-185d-143e-ade0-7d62849ddd9c",
+          "identifier" : "236b31cc-49df-3db0-9b3a-1ff4411cd1d3",
+          "instanceIdentifier" : "30cb1dd5-185d-143e-a81c-bd0731df43f0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "merged" ],
+          "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
-            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
-            "name" : "MergeContent",
+            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
+            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
+            "name" : "ExecuteScript",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -278,11 +278,11 @@
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ "original" ],
+          "autoTerminatedRelationships" : [ ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-standard-nar",
+            "artifact" : "nifi-scripting-nar",
             "group" : "org.apache.nifi",
             "version" : "1.17.0"
           },
@@ -291,148 +291,50 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "bdc9dbab-0286-3f22-af87-a25ace885090",
-          "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
+          "identifier" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
+          "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "MergeContent",
+          "name" : "ExecuteScript",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 288.0,
-            "y" : 392.0
+            "x" : 312.0,
+            "y" : 408.0
           },
           "properties" : {
-            "Attribute Strategy" : "Keep Only Common Attributes",
-            "Compression Level" : "1",
-            "Delimiter Strategy" : "Do Not Use Delimiters",
-            "Keep Path" : "false",
-            "Maximum Number of Entries" : "2",
-            "Maximum number of Bins" : "5",
-            "Merge Format" : "Binary Concatenation",
-            "Merge Strategy" : "Bin-Packing Algorithm",
-            "Minimum Group Size" : "0 B",
-            "Minimum Number of Entries" : "1",
-            "Tar Modified Time" : "${file.lastModifiedTime}",
-            "mergecontent-metadata-strategy" : "Do Not Merge Uncommon Metadata"
+            "Script Engine" : "python",
+            "Script File" : "/home/techuser/python_sleep.py"
           },
           "propertyDescriptors" : {
-            "Attribute Strategy" : {
-              "displayName" : "Attribute Strategy",
+            "Module Directory" : {
+              "displayName" : "Module Directory",
               "identifiesControllerService" : false,
-              "name" : "Attribute Strategy",
-              "sensitive" : false
-            },
-            "Compression Level" : {
-              "displayName" : "Compression Level",
-              "identifiesControllerService" : false,
-              "name" : "Compression Level",
-              "sensitive" : false
-            },
-            "Correlation Attribute Name" : {
-              "displayName" : "Correlation Attribute Name",
-              "identifiesControllerService" : false,
-              "name" : "Correlation Attribute Name",
-              "sensitive" : false
-            },
-            "Delimiter Strategy" : {
-              "displayName" : "Delimiter Strategy",
-              "identifiesControllerService" : false,
-              "name" : "Delimiter Strategy",
-              "sensitive" : false
-            },
-            "Demarcator File" : {
-              "displayName" : "Demarcator",
-              "identifiesControllerService" : false,
-              "name" : "Demarcator File",
+              "name" : "Module Directory",
               "resourceDefinition" : {
-                "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "cardinality" : "MULTIPLE",
+                "resourceTypes" : [ "DIRECTORY", "FILE" ]
               },
               "sensitive" : false
             },
-            "Footer File" : {
-              "displayName" : "Footer",
+            "Script Body" : {
+              "displayName" : "Script Body",
               "identifiesControllerService" : false,
-              "name" : "Footer File",
+              "name" : "Script Body",
+              "sensitive" : false
+            },
+            "Script Engine" : {
+              "displayName" : "Script Engine",
+              "identifiesControllerService" : false,
+              "name" : "Script Engine",
+              "sensitive" : false
+            },
+            "Script File" : {
+              "displayName" : "Script File",
+              "identifiesControllerService" : false,
+              "name" : "Script File",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
+                "resourceTypes" : [ "FILE" ]
               },
-              "sensitive" : false
-            },
-            "Header File" : {
-              "displayName" : "Header",
-              "identifiesControllerService" : false,
-              "name" : "Header File",
-              "resourceDefinition" : {
-                "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE", "TEXT" ]
-              },
-              "sensitive" : false
-            },
-            "Keep Path" : {
-              "displayName" : "Keep Path",
-              "identifiesControllerService" : false,
-              "name" : "Keep Path",
-              "sensitive" : false
-            },
-            "Max Bin Age" : {
-              "displayName" : "Max Bin Age",
-              "identifiesControllerService" : false,
-              "name" : "Max Bin Age",
-              "sensitive" : false
-            },
-            "Maximum Group Size" : {
-              "displayName" : "Maximum Group Size",
-              "identifiesControllerService" : false,
-              "name" : "Maximum Group Size",
-              "sensitive" : false
-            },
-            "Maximum Number of Entries" : {
-              "displayName" : "Maximum Number of Entries",
-              "identifiesControllerService" : false,
-              "name" : "Maximum Number of Entries",
-              "sensitive" : false
-            },
-            "Maximum number of Bins" : {
-              "displayName" : "Maximum number of Bins",
-              "identifiesControllerService" : false,
-              "name" : "Maximum number of Bins",
-              "sensitive" : false
-            },
-            "Merge Format" : {
-              "displayName" : "Merge Format",
-              "identifiesControllerService" : false,
-              "name" : "Merge Format",
-              "sensitive" : false
-            },
-            "Merge Strategy" : {
-              "displayName" : "Merge Strategy",
-              "identifiesControllerService" : false,
-              "name" : "Merge Strategy",
-              "sensitive" : false
-            },
-            "Minimum Group Size" : {
-              "displayName" : "Minimum Group Size",
-              "identifiesControllerService" : false,
-              "name" : "Minimum Group Size",
-              "sensitive" : false
-            },
-            "Minimum Number of Entries" : {
-              "displayName" : "Minimum Number of Entries",
-              "identifiesControllerService" : false,
-              "name" : "Minimum Number of Entries",
-              "sensitive" : false
-            },
-            "Tar Modified Time" : {
-              "displayName" : "Tar Modified Time",
-              "identifiesControllerService" : false,
-              "name" : "Tar Modified Time",
-              "sensitive" : false
-            },
-            "mergecontent-metadata-strategy" : {
-              "displayName" : "Metadata Strategy",
-              "identifiesControllerService" : false,
-              "name" : "mergecontent-metadata-strategy",
               "sensitive" : false
             }
           },
@@ -443,7 +345,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.MergeContent",
+          "type" : "org.apache.nifi.processors.script.ExecuteScript",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
@@ -465,8 +367,8 @@
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 296.0,
-            "y" : 120.0
+            "x" : 312.0,
+            "y" : 168.0
           },
           "properties" : {
             "Batch Size" : "1",
