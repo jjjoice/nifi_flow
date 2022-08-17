@@ -16,28 +16,28 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
+            "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
+            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "6dea17bf-ac15-3143-838f-fc48d2a3c804",
-          "instanceIdentifier" : "30cb1dca-185d-143e-86bc-054d26bd4808",
+          "identifier" : "6e191590-4e28-32a9-ae54-12620fbd491f",
+          "instanceIdentifier" : "30cb1dcf-185d-143e-c42b-18a234ce0aad",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
+          "selectedRelationships" : [ "original", "merged" ],
           "source" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
-            "name" : "ExecuteSQL",
+            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
+            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
+            "name" : "MergeContent",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -49,15 +49,48 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
-            "name" : "ExecuteSQL",
+            "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
+            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
+            "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "15f9dc04-550d-3dba-ad8b-861e53dd9c57",
-          "instanceIdentifier" : "30cb1dc7-185d-143e-d307-f8d398892120",
+          "identifier" : "89f90a97-c2ca-3123-8ee5-d7d114ae82be",
+          "instanceIdentifier" : "30cb1dce-185d-143e-8409-dfb92e11d24c",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
+            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
+            "name" : "MergeContent",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "bdc9dbab-0286-3f22-af87-a25ace885090",
+            "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
+            "name" : "MergeContent",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "60db356c-ad40-3e26-9a9a-d110c71e9f9a",
+          "instanceIdentifier" : "30cb1dcd-185d-143e-1b79-5fbdc67a3df2",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -71,39 +104,6 @@
             "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
             "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
             "name" : "GenerateFlowFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
-            "name" : "LogMessage",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "13c62a8f-9d93-3489-a8ff-dafb7504bc5d",
-          "instanceIdentifier" : "30cb1dc8-185d-143e-d390-ef1067a066ae",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
-            "name" : "ExecuteSQL",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -291,112 +291,148 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-          "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
+          "identifier" : "bdc9dbab-0286-3f22-af87-a25ace885090",
+          "instanceIdentifier" : "30cb1dcc-185d-143e-4762-c5b20d1524ba",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "ExecuteSQL",
+          "name" : "MergeContent",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 296.0,
-            "y" : 368.0
+            "x" : 288.0,
+            "y" : 392.0
           },
           "properties" : {
-            "Database Connection Pooling Service" : "335cedec-c6e2-3160-b7aa-adaba0530485",
-            "Max Wait Time" : "0 seconds",
-            "SQL select query" : "select * from CUSTOMER limit 1;",
-            "compression-format" : "NONE",
-            "dbf-default-precision" : "10",
-            "dbf-default-scale" : "0",
-            "dbf-normalize" : "false",
-            "dbf-user-logical-types" : "false",
-            "esql-auto-commit" : "true",
-            "esql-fetch-size" : "0",
-            "esql-max-rows" : "0",
-            "esql-output-batch-size" : "0"
+            "Attribute Strategy" : "Keep Only Common Attributes",
+            "Compression Level" : "1",
+            "Delimiter Strategy" : "Do Not Use Delimiters",
+            "Keep Path" : "false",
+            "Maximum Number of Entries" : "2",
+            "Maximum number of Bins" : "5",
+            "Merge Format" : "Binary Concatenation",
+            "Merge Strategy" : "Bin-Packing Algorithm",
+            "Minimum Group Size" : "0 B",
+            "Minimum Number of Entries" : "2",
+            "Tar Modified Time" : "${file.lastModifiedTime}",
+            "mergecontent-metadata-strategy" : "Do Not Merge Uncommon Metadata"
           },
           "propertyDescriptors" : {
-            "Database Connection Pooling Service" : {
-              "displayName" : "Database Connection Pooling Service",
-              "identifiesControllerService" : true,
-              "name" : "Database Connection Pooling Service",
+            "Attribute Strategy" : {
+              "displayName" : "Attribute Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Attribute Strategy",
               "sensitive" : false
             },
-            "Max Wait Time" : {
-              "displayName" : "Max Wait Time",
+            "Compression Level" : {
+              "displayName" : "Compression Level",
               "identifiesControllerService" : false,
-              "name" : "Max Wait Time",
+              "name" : "Compression Level",
               "sensitive" : false
             },
-            "SQL select query" : {
-              "displayName" : "SQL select query",
+            "Correlation Attribute Name" : {
+              "displayName" : "Correlation Attribute Name",
               "identifiesControllerService" : false,
-              "name" : "SQL select query",
+              "name" : "Correlation Attribute Name",
               "sensitive" : false
             },
-            "compression-format" : {
-              "displayName" : "Compression Format",
+            "Delimiter Strategy" : {
+              "displayName" : "Delimiter Strategy",
               "identifiesControllerService" : false,
-              "name" : "compression-format",
+              "name" : "Delimiter Strategy",
               "sensitive" : false
             },
-            "dbf-default-precision" : {
-              "displayName" : "Default Decimal Precision",
+            "Demarcator File" : {
+              "displayName" : "Demarcator",
               "identifiesControllerService" : false,
-              "name" : "dbf-default-precision",
+              "name" : "Demarcator File",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE", "TEXT" ]
+              },
               "sensitive" : false
             },
-            "dbf-default-scale" : {
-              "displayName" : "Default Decimal Scale",
+            "Footer File" : {
+              "displayName" : "Footer",
               "identifiesControllerService" : false,
-              "name" : "dbf-default-scale",
+              "name" : "Footer File",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE", "TEXT" ]
+              },
               "sensitive" : false
             },
-            "dbf-normalize" : {
-              "displayName" : "Normalize Table/Column Names",
+            "Header File" : {
+              "displayName" : "Header",
               "identifiesControllerService" : false,
-              "name" : "dbf-normalize",
+              "name" : "Header File",
+              "resourceDefinition" : {
+                "cardinality" : "SINGLE",
+                "resourceTypes" : [ "FILE", "TEXT" ]
+              },
               "sensitive" : false
             },
-            "dbf-user-logical-types" : {
-              "displayName" : "Use Avro Logical Types",
+            "Keep Path" : {
+              "displayName" : "Keep Path",
               "identifiesControllerService" : false,
-              "name" : "dbf-user-logical-types",
+              "name" : "Keep Path",
               "sensitive" : false
             },
-            "esql-auto-commit" : {
-              "displayName" : "Set Auto Commit",
+            "Max Bin Age" : {
+              "displayName" : "Max Bin Age",
               "identifiesControllerService" : false,
-              "name" : "esql-auto-commit",
+              "name" : "Max Bin Age",
               "sensitive" : false
             },
-            "esql-fetch-size" : {
-              "displayName" : "Fetch Size",
+            "Maximum Group Size" : {
+              "displayName" : "Maximum Group Size",
               "identifiesControllerService" : false,
-              "name" : "esql-fetch-size",
+              "name" : "Maximum Group Size",
               "sensitive" : false
             },
-            "esql-max-rows" : {
-              "displayName" : "Max Rows Per Flow File",
+            "Maximum Number of Entries" : {
+              "displayName" : "Maximum Number of Entries",
               "identifiesControllerService" : false,
-              "name" : "esql-max-rows",
+              "name" : "Maximum Number of Entries",
               "sensitive" : false
             },
-            "esql-output-batch-size" : {
-              "displayName" : "Output Batch Size",
+            "Maximum number of Bins" : {
+              "displayName" : "Maximum number of Bins",
               "identifiesControllerService" : false,
-              "name" : "esql-output-batch-size",
+              "name" : "Maximum number of Bins",
               "sensitive" : false
             },
-            "sql-post-query" : {
-              "displayName" : "SQL Post-Query",
+            "Merge Format" : {
+              "displayName" : "Merge Format",
               "identifiesControllerService" : false,
-              "name" : "sql-post-query",
+              "name" : "Merge Format",
               "sensitive" : false
             },
-            "sql-pre-query" : {
-              "displayName" : "SQL Pre-Query",
+            "Merge Strategy" : {
+              "displayName" : "Merge Strategy",
               "identifiesControllerService" : false,
-              "name" : "sql-pre-query",
+              "name" : "Merge Strategy",
+              "sensitive" : false
+            },
+            "Minimum Group Size" : {
+              "displayName" : "Minimum Group Size",
+              "identifiesControllerService" : false,
+              "name" : "Minimum Group Size",
+              "sensitive" : false
+            },
+            "Minimum Number of Entries" : {
+              "displayName" : "Minimum Number of Entries",
+              "identifiesControllerService" : false,
+              "name" : "Minimum Number of Entries",
+              "sensitive" : false
+            },
+            "Tar Modified Time" : {
+              "displayName" : "Tar Modified Time",
+              "identifiesControllerService" : false,
+              "name" : "Tar Modified Time",
+              "sensitive" : false
+            },
+            "mergecontent-metadata-strategy" : {
+              "displayName" : "Metadata Strategy",
+              "identifiesControllerService" : false,
+              "name" : "mergecontent-metadata-strategy",
               "sensitive" : false
             }
           },
@@ -404,10 +440,10 @@
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "10 sec",
+          "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.ExecuteSQL",
+          "type" : "org.apache.nifi.processors.standard.MergeContent",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
