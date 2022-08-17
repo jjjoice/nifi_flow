@@ -16,15 +16,48 @@
           "destination" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
+            "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
+            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
+            "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "4f006e85-de11-369f-8478-b52eb12be90a",
-          "instanceIdentifier" : "30cb1dd3-185d-143e-e69d-778b7f541467",
+          "identifier" : "41b3679f-ff95-3af8-94ac-3cc6e17fce74",
+          "instanceIdentifier" : "30cb1dd9-185d-143e-4185-5c1f6c885b08",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output stream" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "ddd7c95c-ed92-3daa-a615-2da87d7d349a",
+            "instanceIdentifier" : "30cb1dd6-185d-143e-f143-63b413ff2f9e",
+            "name" : "ExecuteStreamCommand",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+            "id" : "ddd7c95c-ed92-3daa-a615-2da87d7d349a",
+            "instanceIdentifier" : "30cb1dd6-185d-143e-f143-63b413ff2f9e",
+            "name" : "ExecuteStreamCommand",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "0413ba46-8691-35a3-a180-7234b0e80916",
+          "instanceIdentifier" : "30cb1dd7-185d-143e-ee5e-ca0de922a5c0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -56,54 +89,21 @@
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "b0f8f7c8-45f4-3639-8dbe-fcf618a56172",
-          "instanceIdentifier" : "30cb1dd4-185d-143e-c79e-d3978dbb4fb2",
+          "identifier" : "406b2a01-acf3-3abe-9eef-5612488d47f8",
+          "instanceIdentifier" : "30cb1dd8-185d-143e-235d-36a559dd4019",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
+          "selectedRelationships" : [ "nonzero status" ],
           "source" : {
             "comments" : "",
             "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
-            "name" : "LogMessage",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "236b31cc-49df-3db0-9b3a-1ff4411cd1d3",
-          "instanceIdentifier" : "30cb1dd5-185d-143e-a81c-bd0731df43f0",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-            "id" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-            "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-            "name" : "ExecuteScript",
+            "id" : "ddd7c95c-ed92-3daa-a615-2da87d7d349a",
+            "instanceIdentifier" : "30cb1dd6-185d-143e-f143-63b413ff2f9e",
+            "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -278,76 +278,6 @@
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
-          "backoffMechanism" : "PENALIZE_FLOWFILE",
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-scripting-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.17.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
-          "identifier" : "5e1b579c-0dbc-3469-9740-cd7f1f689aeb",
-          "instanceIdentifier" : "30cb1dd2-185d-143e-040b-e3690819f285",
-          "maxBackoffPeriod" : "10 mins",
-          "name" : "ExecuteScript",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 312.0,
-            "y" : 408.0
-          },
-          "properties" : {
-            "Script File" : "/home/techuser/helloworld.py",
-            "Script Engine" : "python"
-          },
-          "propertyDescriptors" : {
-            "Script File" : {
-              "displayName" : "Script File",
-              "identifiesControllerService" : false,
-              "name" : "Script File",
-              "resourceDefinition" : {
-                "cardinality" : "SINGLE",
-                "resourceTypes" : [ "FILE" ]
-              },
-              "sensitive" : false
-            },
-            "Script Engine" : {
-              "displayName" : "Script Engine",
-              "identifiesControllerService" : false,
-              "name" : "Script Engine",
-              "sensitive" : false
-            },
-            "Script Body" : {
-              "displayName" : "Script Body",
-              "identifiesControllerService" : false,
-              "name" : "Script Body",
-              "sensitive" : false
-            },
-            "Module Directory" : {
-              "displayName" : "Module Directory",
-              "identifiesControllerService" : false,
-              "name" : "Module Directory",
-              "resourceDefinition" : {
-                "cardinality" : "MULTIPLE",
-                "resourceTypes" : [ "FILE", "DIRECTORY" ]
-              },
-              "sensitive" : false
-            }
-          },
-          "retriedRelationships" : [ ],
-          "retryCount" : 10,
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.script.ExecuteScript",
-          "yieldDuration" : "1 sec"
-        }, {
           "autoTerminatedRelationships" : [ ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
@@ -540,6 +470,96 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "original" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
+          "identifier" : "ddd7c95c-ed92-3daa-a615-2da87d7d349a",
+          "instanceIdentifier" : "30cb1dd6-185d-143e-f143-63b413ff2f9e",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "ExecuteStreamCommand",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 304.0,
+            "y" : 432.0
+          },
+          "properties" : {
+            "argumentsStrategy" : "Command Arguments Property",
+            "Max Attribute Length" : "256",
+            "Command Path" : "python",
+            "Argument Delimiter" : ";",
+            "Ignore STDIN" : "false",
+            "Command Arguments" : "/home/techuser/python_sleep.py"
+          },
+          "propertyDescriptors" : {
+            "argumentsStrategy" : {
+              "displayName" : "Command Arguments Strategy",
+              "identifiesControllerService" : false,
+              "name" : "argumentsStrategy",
+              "sensitive" : false
+            },
+            "Max Attribute Length" : {
+              "displayName" : "Max Attribute Length",
+              "identifiesControllerService" : false,
+              "name" : "Max Attribute Length",
+              "sensitive" : false
+            },
+            "Command Path" : {
+              "displayName" : "Command Path",
+              "identifiesControllerService" : false,
+              "name" : "Command Path",
+              "sensitive" : false
+            },
+            "Working Directory" : {
+              "displayName" : "Working Directory",
+              "identifiesControllerService" : false,
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Output Destination Attribute" : {
+              "displayName" : "Output Destination Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Output Destination Attribute",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Ignore STDIN" : {
+              "displayName" : "Ignore STDIN",
+              "identifiesControllerService" : false,
+              "name" : "Ignore STDIN",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
