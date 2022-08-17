@@ -136,7 +136,7 @@
             "dbcp-min-evictable-idle-time" : "30 mins",
             "Max Total Connections" : "8",
             "dbcp-max-conn-lifetime" : "-1",
-            "Database Connection URL" : "jdbc:mysql://34.67.102.127:3306/test?allowLoadLocalInfile=true",
+            "Database Connection URL" : "jdbc:mysql://localhost:3306/nifi?allowLoadLocalInfile=true",
             "dbcp-time-between-eviction-runs" : "-1",
             "Database User" : "hadoopuser",
             "dbcp-soft-min-evictable-idle-time" : "-1",
