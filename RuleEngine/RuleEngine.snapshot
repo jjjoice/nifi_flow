@@ -677,7 +677,7 @@
           },
           "properties" : {
             "penalize-retries" : "true",
-            "maximum-retries" : "3",
+            "maximum-retries" : "1",
             "Fail on Non-numerical Overwrite" : "false",
             "reuse-mode" : "fail",
             "retry-attribute" : "flowfile.retries"
