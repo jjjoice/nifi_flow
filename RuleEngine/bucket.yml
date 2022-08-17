@@ -1,12 +1,6 @@
 flows:
-  dfedc241-ecc3-4b07-ab18-3e23255c629a:
-    ver: 4
-    file: RuleEngine.snapshot
-    comments: |
-      Change sql Query
-    author: anonymous
-    created: 1660717294096
-    flowName: RuleEngine
-    flowDesc: ''
+  dfedc241-ecc3-4b07-ab18-3e23255c629a: {ver: 5, file: RuleEngine.snapshot, comments: Retry
+      Flow File Added, author: anonymous, created: 1660726870501, flowName: RuleEngine,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: fb12349d-1d09-44c9-9429-dbe6aef620fa
