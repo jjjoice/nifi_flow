@@ -15,16 +15,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-            "instanceIdentifier" : "024ec10f-24e2-319e-cabe-76c7c49edbce",
+            "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "6dea17bf-ac15-3143-838f-fc48d2a3c804",
-          "instanceIdentifier" : "862d6baf-2204-3d94-f801-563471d6413f",
+          "instanceIdentifier" : "30cb1dca-185d-143e-86bc-054d26bd4808",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -34,9 +34,9 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "09d584e2-1a57-3bde-39b8-182cf308feda",
+            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
             "name" : "ExecuteSQL",
             "type" : "PROCESSOR"
           },
@@ -48,16 +48,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "09d584e2-1a57-3bde-39b8-182cf308feda",
+            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
             "name" : "ExecuteSQL",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "15f9dc04-550d-3dba-ad8b-861e53dd9c57",
-          "instanceIdentifier" : "cca22126-c659-3e4e-65d3-02dddc53a199",
+          "instanceIdentifier" : "30cb1dc7-185d-143e-d307-f8d398892120",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -67,9 +67,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
-            "instanceIdentifier" : "57f5bafb-8d56-3ce9-706d-5d2bb3b7ac84",
+            "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
           },
@@ -81,16 +81,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-            "instanceIdentifier" : "d1773642-1355-33bf-e26d-15aaee747917",
+            "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "13c62a8f-9d93-3489-a8ff-dafb7504bc5d",
-          "instanceIdentifier" : "38a72c95-e7f7-36d3-fe20-741b36f20b1e",
+          "instanceIdentifier" : "30cb1dc8-185d-143e-d390-ef1067a066ae",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -100,9 +100,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+            "groupId" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
             "id" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-            "instanceIdentifier" : "09d584e2-1a57-3bde-39b8-182cf308feda",
+            "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
             "name" : "ExecuteSQL",
             "type" : "PROCESSOR"
           },
@@ -125,41 +125,29 @@
             },
             "type" : "org.apache.nifi.dbcp.DBCPService"
           } ],
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "335cedec-c6e2-3160-b7aa-adaba0530485",
-          "instanceIdentifier" : "9d76cbe6-8baf-30b0-a19f-66f1df33fa5c",
+          "instanceIdentifier" : "30cb1dcb-185d-143e-1a2a-ab1041582a68",
           "name" : "DemoDBCPConnectionPool",
           "properties" : {
-            "dbcp-min-idle-conns" : "0",
-            "Max Wait Time" : "500 millis",
-            "Database Driver Class Name" : "com.mysql.jdbc.Driver",
-            "dbcp-min-evictable-idle-time" : "30 mins",
-            "Max Total Connections" : "8",
-            "dbcp-max-conn-lifetime" : "-1",
             "Database Connection URL" : "jdbc:mysql://localhost:3306/nifi?allowLoadLocalInfile=true",
-            "dbcp-time-between-eviction-runs" : "-1",
+            "Database Driver Class Name" : "com.mysql.jdbc.Driver",
             "Database User" : "hadoopuser",
-            "dbcp-soft-min-evictable-idle-time" : "-1",
+            "Max Total Connections" : "8",
+            "Max Wait Time" : "500 millis",
             "database-driver-locations" : "/opt/mysql-connector-java-5.1.49.jar",
-            "dbcp-max-idle-conns" : "8"
+            "dbcp-max-conn-lifetime" : "-1",
+            "dbcp-max-idle-conns" : "8",
+            "dbcp-min-evictable-idle-time" : "30 mins",
+            "dbcp-min-idle-conns" : "0",
+            "dbcp-soft-min-evictable-idle-time" : "-1",
+            "dbcp-time-between-eviction-runs" : "-1"
           },
           "propertyDescriptors" : {
-            "kerberos-password" : {
-              "displayName" : "Kerberos Password",
+            "Database Connection URL" : {
+              "displayName" : "Database Connection URL",
               "identifiesControllerService" : false,
-              "name" : "kerberos-password",
-              "sensitive" : true
-            },
-            "dbcp-min-idle-conns" : {
-              "displayName" : "Minimum Idle Connections",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-min-idle-conns",
-              "sensitive" : false
-            },
-            "Max Wait Time" : {
-              "displayName" : "Max Wait Time",
-              "identifiesControllerService" : false,
-              "name" : "Max Wait Time",
+              "name" : "Database Connection URL",
               "sensitive" : false
             },
             "Database Driver Class Name" : {
@@ -168,16 +156,10 @@
               "name" : "Database Driver Class Name",
               "sensitive" : false
             },
-            "dbcp-min-evictable-idle-time" : {
-              "displayName" : "Minimum Evictable Idle Time",
+            "Database User" : {
+              "displayName" : "Database User",
               "identifiesControllerService" : false,
-              "name" : "dbcp-min-evictable-idle-time",
-              "sensitive" : false
-            },
-            "kerberos-principal" : {
-              "displayName" : "Kerberos Principal",
-              "identifiesControllerService" : false,
-              "name" : "kerberos-principal",
+              "name" : "Database User",
               "sensitive" : false
             },
             "Max Total Connections" : {
@@ -186,52 +168,22 @@
               "name" : "Max Total Connections",
               "sensitive" : false
             },
-            "kerberos-credentials-service" : {
-              "displayName" : "Kerberos Credentials Service",
-              "identifiesControllerService" : true,
-              "name" : "kerberos-credentials-service",
+            "Max Wait Time" : {
+              "displayName" : "Max Wait Time",
+              "identifiesControllerService" : false,
+              "name" : "Max Wait Time",
               "sensitive" : false
             },
-            "dbcp-max-conn-lifetime" : {
-              "displayName" : "Max Connection Lifetime",
+            "Password" : {
+              "displayName" : "Password",
               "identifiesControllerService" : false,
-              "name" : "dbcp-max-conn-lifetime",
-              "sensitive" : false
+              "name" : "Password",
+              "sensitive" : true
             },
             "Validation-query" : {
               "displayName" : "Validation query",
               "identifiesControllerService" : false,
               "name" : "Validation-query",
-              "sensitive" : false
-            },
-            "Database Connection URL" : {
-              "displayName" : "Database Connection URL",
-              "identifiesControllerService" : false,
-              "name" : "Database Connection URL",
-              "sensitive" : false
-            },
-            "dbcp-time-between-eviction-runs" : {
-              "displayName" : "Time Between Eviction Runs",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-time-between-eviction-runs",
-              "sensitive" : false
-            },
-            "Database User" : {
-              "displayName" : "Database User",
-              "identifiesControllerService" : false,
-              "name" : "Database User",
-              "sensitive" : false
-            },
-            "kerberos-user-service" : {
-              "displayName" : "Kerberos User Service",
-              "identifiesControllerService" : true,
-              "name" : "kerberos-user-service",
-              "sensitive" : false
-            },
-            "dbcp-soft-min-evictable-idle-time" : {
-              "displayName" : "Soft Minimum Evictable Idle Time",
-              "identifiesControllerService" : false,
-              "name" : "dbcp-soft-min-evictable-idle-time",
               "sensitive" : false
             },
             "database-driver-locations" : {
@@ -244,17 +196,65 @@
               },
               "sensitive" : false
             },
+            "dbcp-max-conn-lifetime" : {
+              "displayName" : "Max Connection Lifetime",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-max-conn-lifetime",
+              "sensitive" : false
+            },
             "dbcp-max-idle-conns" : {
               "displayName" : "Max Idle Connections",
               "identifiesControllerService" : false,
               "name" : "dbcp-max-idle-conns",
               "sensitive" : false
             },
-            "Password" : {
-              "displayName" : "Password",
+            "dbcp-min-evictable-idle-time" : {
+              "displayName" : "Minimum Evictable Idle Time",
               "identifiesControllerService" : false,
-              "name" : "Password",
+              "name" : "dbcp-min-evictable-idle-time",
+              "sensitive" : false
+            },
+            "dbcp-min-idle-conns" : {
+              "displayName" : "Minimum Idle Connections",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-min-idle-conns",
+              "sensitive" : false
+            },
+            "dbcp-soft-min-evictable-idle-time" : {
+              "displayName" : "Soft Minimum Evictable Idle Time",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-soft-min-evictable-idle-time",
+              "sensitive" : false
+            },
+            "dbcp-time-between-eviction-runs" : {
+              "displayName" : "Time Between Eviction Runs",
+              "identifiesControllerService" : false,
+              "name" : "dbcp-time-between-eviction-runs",
+              "sensitive" : false
+            },
+            "kerberos-credentials-service" : {
+              "displayName" : "Kerberos Credentials Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-credentials-service",
+              "sensitive" : false
+            },
+            "kerberos-password" : {
+              "displayName" : "Kerberos Password",
+              "identifiesControllerService" : false,
+              "name" : "kerberos-password",
               "sensitive" : true
+            },
+            "kerberos-principal" : {
+              "displayName" : "Kerberos Principal",
+              "identifiesControllerService" : false,
+              "name" : "kerberos-principal",
+              "sensitive" : false
+            },
+            "kerberos-user-service" : {
+              "displayName" : "Kerberos User Service",
+              "identifiesControllerService" : true,
+              "name" : "kerberos-user-service",
+              "sensitive" : false
             }
           },
           "scheduledState" : "DISABLED",
@@ -266,15 +266,15 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+        "identifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "ace0363f-0182-1000-5499-01fcb3cd0195",
+        "instanceIdentifier" : "9258c2ea-0182-1000-1f12-2139f0d08736",
         "labels" : [ ],
         "name" : "Demo",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -264.0,
-          "y" : 464.0
+          "x" : 192.0,
+          "y" : 24.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -290,9 +290,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "d7001c2a-a50f-368e-bb00-c0ecc4beb39d",
-          "instanceIdentifier" : "09d584e2-1a57-3bde-39b8-182cf308feda",
+          "instanceIdentifier" : "30cb1dc6-185d-143e-3fe1-b7c3f2f3619c",
           "maxBackoffPeriod" : "10 mins",
           "name" : "ExecuteSQL",
           "penaltyDuration" : "30 sec",
@@ -301,30 +301,24 @@
             "y" : 368.0
           },
           "properties" : {
-            "esql-max-rows" : "0",
-            "dbf-default-precision" : "10",
-            "Max Wait Time" : "0 seconds",
             "Database Connection Pooling Service" : "335cedec-c6e2-3160-b7aa-adaba0530485",
-            "esql-auto-commit" : "true",
-            "dbf-user-logical-types" : "false",
-            "dbf-default-scale" : "0",
-            "compression-format" : "NONE",
-            "esql-output-batch-size" : "0",
-            "esql-fetch-size" : "0",
+            "Max Wait Time" : "0 seconds",
             "SQL select query" : "select * from CUSTOMER;",
-            "dbf-normalize" : "false"
+            "compression-format" : "NONE",
+            "dbf-default-precision" : "10",
+            "dbf-default-scale" : "0",
+            "dbf-normalize" : "false",
+            "dbf-user-logical-types" : "false",
+            "esql-auto-commit" : "true",
+            "esql-fetch-size" : "0",
+            "esql-max-rows" : "0",
+            "esql-output-batch-size" : "0"
           },
           "propertyDescriptors" : {
-            "esql-max-rows" : {
-              "displayName" : "Max Rows Per Flow File",
-              "identifiesControllerService" : false,
-              "name" : "esql-max-rows",
-              "sensitive" : false
-            },
-            "dbf-default-precision" : {
-              "displayName" : "Default Decimal Precision",
-              "identifiesControllerService" : false,
-              "name" : "dbf-default-precision",
+            "Database Connection Pooling Service" : {
+              "displayName" : "Database Connection Pooling Service",
+              "identifiesControllerService" : true,
+              "name" : "Database Connection Pooling Service",
               "sensitive" : false
             },
             "Max Wait Time" : {
@@ -333,40 +327,10 @@
               "name" : "Max Wait Time",
               "sensitive" : false
             },
-            "Database Connection Pooling Service" : {
-              "displayName" : "Database Connection Pooling Service",
-              "identifiesControllerService" : true,
-              "name" : "Database Connection Pooling Service",
-              "sensitive" : false
-            },
-            "sql-post-query" : {
-              "displayName" : "SQL Post-Query",
+            "SQL select query" : {
+              "displayName" : "SQL select query",
               "identifiesControllerService" : false,
-              "name" : "sql-post-query",
-              "sensitive" : false
-            },
-            "esql-auto-commit" : {
-              "displayName" : "Set Auto Commit",
-              "identifiesControllerService" : false,
-              "name" : "esql-auto-commit",
-              "sensitive" : false
-            },
-            "dbf-user-logical-types" : {
-              "displayName" : "Use Avro Logical Types",
-              "identifiesControllerService" : false,
-              "name" : "dbf-user-logical-types",
-              "sensitive" : false
-            },
-            "dbf-default-scale" : {
-              "displayName" : "Default Decimal Scale",
-              "identifiesControllerService" : false,
-              "name" : "dbf-default-scale",
-              "sensitive" : false
-            },
-            "sql-pre-query" : {
-              "displayName" : "SQL Pre-Query",
-              "identifiesControllerService" : false,
-              "name" : "sql-pre-query",
+              "name" : "SQL select query",
               "sensitive" : false
             },
             "compression-format" : {
@@ -375,10 +339,34 @@
               "name" : "compression-format",
               "sensitive" : false
             },
-            "esql-output-batch-size" : {
-              "displayName" : "Output Batch Size",
+            "dbf-default-precision" : {
+              "displayName" : "Default Decimal Precision",
               "identifiesControllerService" : false,
-              "name" : "esql-output-batch-size",
+              "name" : "dbf-default-precision",
+              "sensitive" : false
+            },
+            "dbf-default-scale" : {
+              "displayName" : "Default Decimal Scale",
+              "identifiesControllerService" : false,
+              "name" : "dbf-default-scale",
+              "sensitive" : false
+            },
+            "dbf-normalize" : {
+              "displayName" : "Normalize Table/Column Names",
+              "identifiesControllerService" : false,
+              "name" : "dbf-normalize",
+              "sensitive" : false
+            },
+            "dbf-user-logical-types" : {
+              "displayName" : "Use Avro Logical Types",
+              "identifiesControllerService" : false,
+              "name" : "dbf-user-logical-types",
+              "sensitive" : false
+            },
+            "esql-auto-commit" : {
+              "displayName" : "Set Auto Commit",
+              "identifiesControllerService" : false,
+              "name" : "esql-auto-commit",
               "sensitive" : false
             },
             "esql-fetch-size" : {
@@ -387,16 +375,28 @@
               "name" : "esql-fetch-size",
               "sensitive" : false
             },
-            "SQL select query" : {
-              "displayName" : "SQL select query",
+            "esql-max-rows" : {
+              "displayName" : "Max Rows Per Flow File",
               "identifiesControllerService" : false,
-              "name" : "SQL select query",
+              "name" : "esql-max-rows",
               "sensitive" : false
             },
-            "dbf-normalize" : {
-              "displayName" : "Normalize Table/Column Names",
+            "esql-output-batch-size" : {
+              "displayName" : "Output Batch Size",
               "identifiesControllerService" : false,
-              "name" : "dbf-normalize",
+              "name" : "esql-output-batch-size",
+              "sensitive" : false
+            },
+            "sql-post-query" : {
+              "displayName" : "SQL Post-Query",
+              "identifiesControllerService" : false,
+              "name" : "sql-post-query",
+              "sensitive" : false
+            },
+            "sql-pre-query" : {
+              "displayName" : "SQL Pre-Query",
+              "identifiesControllerService" : false,
+              "name" : "sql-pre-query",
               "sensitive" : false
             }
           },
@@ -404,7 +404,7 @@
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "300 sec",
+          "schedulingPeriod" : "10 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.ExecuteSQL",
@@ -422,9 +422,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "c5222cf3-81f6-3ea1-ad36-1f25e0ea8184",
-          "instanceIdentifier" : "57f5bafb-8d56-3ce9-706d-5d2bb3b7ac84",
+          "instanceIdentifier" : "9258f3cd-0182-1000-73e1-d794cf34867e",
           "maxBackoffPeriod" : "10 mins",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -433,18 +433,24 @@
             "y" : 120.0
           },
           "properties" : {
-            "character-set" : "UTF-8",
-            "File Size" : "0B",
-            "generate-ff-custom-text" : "abc,bfg,dd",
             "Batch Size" : "1",
+            "Data Format" : "Text",
+            "File Size" : "0B",
             "Unique FlowFiles" : "false",
-            "Data Format" : "Text"
+            "character-set" : "UTF-8",
+            "generate-ff-custom-text" : "abc,bfg,dd"
           },
           "propertyDescriptors" : {
-            "character-set" : {
-              "displayName" : "Character Set",
+            "Batch Size" : {
+              "displayName" : "Batch Size",
               "identifiesControllerService" : false,
-              "name" : "character-set",
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
               "sensitive" : false
             },
             "File Size" : {
@@ -453,10 +459,16 @@
               "name" : "File Size",
               "sensitive" : false
             },
-            "mime-type" : {
-              "displayName" : "Mime Type",
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
               "identifiesControllerService" : false,
-              "name" : "mime-type",
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
               "sensitive" : false
             },
             "generate-ff-custom-text" : {
@@ -465,22 +477,10 @@
               "name" : "generate-ff-custom-text",
               "sensitive" : false
             },
-            "Batch Size" : {
-              "displayName" : "Batch Size",
+            "mime-type" : {
+              "displayName" : "Mime Type",
               "identifiesControllerService" : false,
-              "name" : "Batch Size",
-              "sensitive" : false
-            },
-            "Unique FlowFiles" : {
-              "displayName" : "Unique FlowFiles",
-              "identifiesControllerService" : false,
-              "name" : "Unique FlowFiles",
-              "sensitive" : false
-            },
-            "Data Format" : {
-              "displayName" : "Data Format",
-              "identifiesControllerService" : false,
-              "name" : "Data Format",
+              "name" : "mime-type",
               "sensitive" : false
             }
           },
@@ -506,9 +506,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "ae4a17ca-cd40-3c5d-b4ee-82c1de26ab58",
-          "instanceIdentifier" : "d1773642-1355-33bf-e26d-15aaee747917",
+          "instanceIdentifier" : "743e1858-30cb-1d97-42e3-e012f9dcd772",
           "maxBackoffPeriod" : "10 mins",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
@@ -520,16 +520,16 @@
             "log-level" : "info"
           },
           "propertyDescriptors" : {
-            "log-message" : {
-              "displayName" : "Log message",
-              "identifiesControllerService" : false,
-              "name" : "log-message",
-              "sensitive" : false
-            },
             "log-level" : {
               "displayName" : "Log Level",
               "identifiesControllerService" : false,
               "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
               "sensitive" : false
             },
             "log-prefix" : {
@@ -561,9 +561,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9930b91c-6bb0-307d-a0a5-e37708494ea6",
+          "groupIdentifier" : "459c7be0-bd82-3ad2-99b7-9bebc1271931",
           "identifier" : "2e20a6c7-c959-3c20-b921-1107d5708944",
-          "instanceIdentifier" : "024ec10f-24e2-319e-cabe-76c7c49edbce",
+          "instanceIdentifier" : "30cb1dc9-185d-143e-4cdc-9357e9f7eec5",
           "maxBackoffPeriod" : "10 mins",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
@@ -575,16 +575,16 @@
             "log-level" : "info"
           },
           "propertyDescriptors" : {
-            "log-message" : {
-              "displayName" : "Log message",
-              "identifiesControllerService" : false,
-              "name" : "log-message",
-              "sensitive" : false
-            },
             "log-level" : {
               "displayName" : "Log Level",
               "identifiesControllerService" : false,
               "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
               "sensitive" : false
             },
             "log-prefix" : {
@@ -607,7 +607,6 @@
         "remoteProcessGroups" : [ ],
         "variables" : { }
       },
-      "flowEncodingVersion" : "1.0",
       "parameterContexts" : { }
     }
   }
