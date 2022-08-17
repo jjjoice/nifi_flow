@@ -311,7 +311,7 @@
             "compression-format" : "NONE",
             "esql-output-batch-size" : "0",
             "esql-fetch-size" : "0",
-            "SQL select query" : "select * from CUSTOMER;",
+            "SQL select query" : "select * from CUSTOMER limit 1;",
             "dbf-normalize" : "false"
           },
           "propertyDescriptors" : {
