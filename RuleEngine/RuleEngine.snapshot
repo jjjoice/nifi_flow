@@ -670,7 +670,7 @@
           "instanceIdentifier" : "30cb1dab-185d-143e-8696-2020d96b5e7e",
           "maxBackoffPeriod" : "10 mins",
           "name" : "RetryFlowFile",
-          "penaltyDuration" : "120 sec",
+          "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 472.0,
             "y" : 560.0
