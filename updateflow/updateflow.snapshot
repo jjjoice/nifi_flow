@@ -113,8 +113,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 456.0,
-            "y" : 120.0
+            "x" : 432.0,
+            "y" : 112.0
           },
           "properties" : {
             "filename" : "Demo0009.csv",
@@ -265,7 +265,7 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 472.0,
+            "x" : 408.0,
             "y" : 400.0
           },
           "properties" : {
