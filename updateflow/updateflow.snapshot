@@ -205,7 +205,7 @@
             "y" : 120.0
           },
           "properties" : {
-            "filename" : "Demo.csv",
+            "filename" : "Demo0007.csv",
             "Store State" : "Do not store state",
             "canonical-value-lookup-cache-size" : "100"
           },
