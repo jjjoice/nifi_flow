@@ -16,6 +16,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+            "id" : "8208bc2e-8215-31e4-b938-3bdcab92bb62",
+            "instanceIdentifier" : "30cb1db5-185d-143e-a596-9667d3300483",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+          "identifier" : "0d0c395d-19a6-3906-ba70-ba23fa247cc5",
+          "instanceIdentifier" : "30cb1deb-185d-143e-5e3c-a07ed1a73141",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+            "id" : "f1737279-fe3d-33e4-8c4f-f9a68a8ed2b7",
+            "instanceIdentifier" : "30cb1de9-185d-143e-3832-fc148ffe9d54",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
             "id" : "2a4b2d33-b3dc-33e6-8ed2-8ac1b97a38c4",
             "instanceIdentifier" : "30cb1de3-185d-143e-1916-428e3c2bee5c",
             "name" : "UpdateAttribute",
@@ -49,15 +82,15 @@
           "destination" : {
             "comments" : "",
             "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-            "id" : "8208bc2e-8215-31e4-b938-3bdcab92bb62",
-            "instanceIdentifier" : "30cb1db5-185d-143e-a596-9667d3300483",
-            "name" : "LogMessage",
+            "id" : "f1737279-fe3d-33e4-8c4f-f9a68a8ed2b7",
+            "instanceIdentifier" : "30cb1de9-185d-143e-3832-fc148ffe9d54",
+            "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-          "identifier" : "1768f38a-737a-363b-814a-54fa4c96b111",
-          "instanceIdentifier" : "30cb1de7-185d-143e-6a6d-05725b160fab",
+          "identifier" : "7da9f2cf-ee6a-39d7-a5c4-ddfd7a39a9ce",
+          "instanceIdentifier" : "30cb1dea-185d-143e-1bba-309e109eb72c",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -113,8 +146,8 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 464.0,
-            "y" : 464.0
+            "x" : 448.0,
+            "y" : 552.0
           },
           "properties" : {
             "log-level" : "info"
@@ -175,6 +208,75 @@
             "Store State" : "Do not store state",
             "canonical-value-lookup-cache-size" : "100",
             "filename" : "Demo.csv"
+          },
+          "propertyDescriptors" : {
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
+              "identifiesControllerService" : false,
+              "name" : "Delete Attributes Expression",
+              "sensitive" : false
+            },
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
+              "identifiesControllerService" : false,
+              "name" : "Stateful Variables Initial Value",
+              "sensitive" : false
+            },
+            "Store State" : {
+              "displayName" : "Store State",
+              "identifiesControllerService" : false,
+              "name" : "Store State",
+              "sensitive" : false
+            },
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
+              "identifiesControllerService" : false,
+              "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "filename" : {
+              "displayName" : "filename",
+              "identifiesControllerService" : false,
+              "name" : "filename",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-update-attribute-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+          "identifier" : "f1737279-fe3d-33e4-8c4f-f9a68a8ed2b7",
+          "instanceIdentifier" : "30cb1de9-185d-143e-3832-fc148ffe9d54",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "UpdateAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 456.0,
+            "y" : 328.0
+          },
+          "properties" : {
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100",
+            "filename" : "Test001.csv"
           },
           "propertyDescriptors" : {
             "Delete Attributes Expression" : {
