@@ -16,15 +16,48 @@
           "destination" : {
             "comments" : "",
             "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-            "id" : "8208bc2e-8215-31e4-b938-3bdcab92bb62",
-            "instanceIdentifier" : "30cb1db5-185d-143e-a596-9667d3300483",
-            "name" : "LogMessage",
+            "id" : "2a4b2d33-b3dc-33e6-8ed2-8ac1b97a38c4",
+            "instanceIdentifier" : "30cb1de3-185d-143e-1916-428e3c2bee5c",
+            "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-          "identifier" : "0d0c395d-19a6-3906-ba70-ba23fa247cc5",
-          "instanceIdentifier" : "30cb1deb-185d-143e-5e3c-a07ed1a73141",
+          "identifier" : "a7d3d313-e1e3-37a9-b8d7-596628269270",
+          "instanceIdentifier" : "30cb1de4-185d-143e-db67-dcc59f5e49fa",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+            "id" : "64efb39f-6bf0-3a9c-be99-8eb38f5ed27b",
+            "instanceIdentifier" : "30cb1db4-185d-143e-c99c-6eb2091e1522",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+            "id" : "24debf48-98f3-3e9d-b983-41ffe335e51f",
+            "instanceIdentifier" : "30cb1dec-185d-143e-7b60-ded1a4bdae88",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+          "identifier" : "0e9c40a7-e1b9-3889-9639-3ad44f410c33",
+          "instanceIdentifier" : "30cb1ded-185d-143e-909d-5456dd22db1e",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -49,15 +82,15 @@
           "destination" : {
             "comments" : "",
             "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-            "id" : "2a4b2d33-b3dc-33e6-8ed2-8ac1b97a38c4",
-            "instanceIdentifier" : "30cb1de3-185d-143e-1916-428e3c2bee5c",
-            "name" : "UpdateAttribute",
+            "id" : "ec108618-df9b-319d-9bfb-16a5e81b1d36",
+            "instanceIdentifier" : "30cb1dee-185d-143e-0c81-311e3ebc36a1",
+            "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-          "identifier" : "a7d3d313-e1e3-37a9-b8d7-596628269270",
-          "instanceIdentifier" : "30cb1de4-185d-143e-db67-dcc59f5e49fa",
+          "identifier" : "926a77e3-9264-3adf-a9b9-aba087406b8a",
+          "instanceIdentifier" : "30cb1def-185d-143e-6398-6176fb3995dd",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -68,9 +101,9 @@
           "source" : {
             "comments" : "",
             "groupId" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-            "id" : "64efb39f-6bf0-3a9c-be99-8eb38f5ed27b",
-            "instanceIdentifier" : "30cb1db4-185d-143e-c99c-6eb2091e1522",
-            "name" : "GenerateFlowFile",
+            "id" : "24debf48-98f3-3e9d-b983-41ffe335e51f",
+            "instanceIdentifier" : "30cb1dec-185d-143e-7b60-ded1a4bdae88",
+            "name" : "UpdateAttribute",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -131,7 +164,7 @@
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
-            "artifact" : "nifi-standard-nar",
+            "artifact" : "nifi-update-attribute-nar",
             "group" : "org.apache.nifi",
             "version" : "1.17.0"
           },
@@ -140,35 +173,49 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
-          "identifier" : "8208bc2e-8215-31e4-b938-3bdcab92bb62",
-          "instanceIdentifier" : "30cb1db5-185d-143e-a596-9667d3300483",
+          "identifier" : "24debf48-98f3-3e9d-b983-41ffe335e51f",
+          "instanceIdentifier" : "30cb1dec-185d-143e-7b60-ded1a4bdae88",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "LogMessage",
+          "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 448.0,
-            "y" : 552.0
+            "x" : 456.0,
+            "y" : 568.0
           },
           "properties" : {
-            "log-level" : "info"
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100",
+            "Flow" : "100"
           },
           "propertyDescriptors" : {
-            "log-message" : {
-              "displayName" : "Log message",
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
               "identifiesControllerService" : false,
-              "name" : "log-message",
+              "name" : "Delete Attributes Expression",
               "sensitive" : false
             },
-            "log-level" : {
-              "displayName" : "Log Level",
+            "Store State" : {
+              "displayName" : "Store State",
               "identifiesControllerService" : false,
-              "name" : "log-level",
+              "name" : "Store State",
               "sensitive" : false
             },
-            "log-prefix" : {
-              "displayName" : "Log prefix",
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
               "identifiesControllerService" : false,
-              "name" : "log-prefix",
+              "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
+              "identifiesControllerService" : false,
+              "name" : "Stateful Variables Initial Value",
+              "sensitive" : false
+            },
+            "Flow" : {
+              "displayName" : "Flow",
+              "identifiesControllerService" : false,
+              "name" : "Flow",
               "sensitive" : false
             }
           },
@@ -179,7 +226,7 @@
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
-          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],
@@ -401,6 +448,61 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "4995622a-cce5-38c2-a9ac-692e4b202005",
+          "identifier" : "ec108618-df9b-319d-9bfb-16a5e81b1d36",
+          "instanceIdentifier" : "30cb1dee-185d-143e-0c81-311e3ebc36a1",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 448.0,
+            "y" : 856.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
