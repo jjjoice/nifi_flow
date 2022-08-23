@@ -323,7 +323,8 @@
             "Data Format" : "Text",
             "File Size" : "0B",
             "Unique FlowFiles" : "false",
-            "character-set" : "UTF-8"
+            "character-set" : "UTF-8",
+            "filename" : "HelloWorld.csv"
           },
           "propertyDescriptors" : {
             "Batch Size" : {
@@ -354,6 +355,12 @@
               "displayName" : "Character Set",
               "identifiesControllerService" : false,
               "name" : "character-set",
+              "sensitive" : false
+            },
+            "filename" : {
+              "displayName" : "filename",
+              "identifiesControllerService" : false,
+              "name" : "filename",
               "sensitive" : false
             },
             "generate-ff-custom-text" : {
