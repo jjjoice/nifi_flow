@@ -1,5 +1,12 @@
 flows:
-  dd9209c1-079a-4992-b8c0-064aac66af10: {ver: 4, file: sixdee.snapshot, comments: '',
-    author: anonymous, created: 1661263487521, flowName: sixdee, flowDesc: ''}
+  dd9209c1-079a-4992-b8c0-064aac66af10:
+    ver: 5
+    file: sixdee.snapshot
+    comments: |
+      helloWorld.py added
+    author: anonymous
+    created: 1661264786903
+    flowName: sixdee
+    flowDesc: ''
 layoutVer: 1
 bucketId: d45ca8ea-9e3b-4dea-87f1-3182142cd772
