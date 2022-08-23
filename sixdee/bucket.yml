@@ -1,12 +1,5 @@
 flows:
-  6a9a1e2b-f7ae-47e0-982f-4307c101e0d6:
-    ver: 2
-    file: sixdee.snapshot
-    comments: |
-      Scheduling Changed
-    author: anonymous
-    created: 1661262230135
-    flowName: sixdee
-    flowDesc: ''
+  6a9a1e2b-f7ae-47e0-982f-4307c101e0d6: {ver: 3, file: sixdee.snapshot, comments: '',
+    author: anonymous, created: 1661263347206, flowName: sixdee, flowDesc: ''}
 layoutVer: 1
 bucketId: 1fd9c2d0-9865-4af7-bd12-8878e4ce3847
