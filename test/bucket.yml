@@ -1,5 +1,5 @@
 flows:
-  59d97bbd-7d55-4994-9a96-cb8992731639: {ver: 1, file: test.snapshot, comments: '',
-    author: anonymous, created: 1661406453062, flowName: test, flowDesc: ''}
+  59d97bbd-7d55-4994-9a96-cb8992731639: {ver: 2, file: test.snapshot, comments: '',
+    author: anonymous, created: 1661412136429, flowName: test, flowDesc: ''}
 layoutVer: 1
 bucketId: 6f188b17-eb5c-41bb-9bf5-78c7e386cace
