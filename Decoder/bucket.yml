@@ -1,6 +1,0 @@
-flows:
-  74ebd0c6-d1d5-4971-9827-4c6e701c6b68: {ver: 3, file: decoder.snapshot, comments: Added
-      HelloWorld.csv, author: anonymous, created: 1660708419429, flowName: decoder,
-    flowDesc: flow for decoder}
-layoutVer: 1
-bucketId: ece3e326-5d4b-462b-bc45-2047754a7af5
