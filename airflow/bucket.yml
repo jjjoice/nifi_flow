@@ -1,5 +1,0 @@
-flows:
-  20e073bd-7521-4776-b7a0-718384c5fed2: {ver: 1, file: airflow.snapshot, comments: '',
-    author: anonymous, created: 1661401321404, flowName: airflow, flowDesc: ''}
-layoutVer: 1
-bucketId: 1424f94b-0599-4f1c-b27e-9c2086964d94
