@@ -425,7 +425,8 @@
           },
           "properties" : {
             "Store State" : "Do not store state",
-            "canonical-value-lookup-cache-size" : "100"
+            "canonical-value-lookup-cache-size" : "100",
+            "filename" : "HelloWorld.py"
           },
           "propertyDescriptors" : {
             "Delete Attributes Expression" : {
@@ -450,6 +451,12 @@
               "displayName" : "Cache Value Lookup Cache Size",
               "identifiesControllerService" : false,
               "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "filename" : {
+              "displayName" : "filename",
+              "identifiesControllerService" : false,
+              "name" : "filename",
               "sensitive" : false
             }
           },
