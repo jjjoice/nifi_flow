@@ -325,7 +325,8 @@
             "Batch Size" : "1",
             "Unique FlowFiles" : "false",
             "format" : "yyyy-MM-dd",
-            "Data Format" : "Text"
+            "Data Format" : "Text",
+            "table" : "usage"
           },
           "propertyDescriptors" : {
             "character-set" : {
@@ -380,6 +381,12 @@
               "displayName" : "Data Format",
               "identifiesControllerService" : false,
               "name" : "Data Format",
+              "sensitive" : false
+            },
+            "table" : {
+              "displayName" : "table",
+              "identifiesControllerService" : false,
+              "name" : "table",
               "sensitive" : false
             }
           },
