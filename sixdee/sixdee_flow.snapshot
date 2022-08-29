@@ -324,6 +324,7 @@
             "filename" : "HelloWorld.csv",
             "Batch Size" : "1",
             "Unique FlowFiles" : "false",
+            "format" : "yyyy-MM-dd",
             "Data Format" : "Text"
           },
           "propertyDescriptors" : {
@@ -367,6 +368,12 @@
               "displayName" : "Unique FlowFiles",
               "identifiesControllerService" : false,
               "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "format" : {
+              "displayName" : "format",
+              "identifiesControllerService" : false,
+              "name" : "format",
               "sensitive" : false
             },
             "Data Format" : {
