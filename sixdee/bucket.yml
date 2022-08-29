@@ -1,6 +1,6 @@
 flows:
-  485e5071-76b8-4640-8b96-a993c39d973f: {ver: 2, file: sixdee.snapshot, comments: Table
-      name property Added, author: anonymous, created: 1661797350514, flowName: sixdee,
+  485e5071-76b8-4640-8b96-a993c39d973f: {ver: 3, file: sixdee.snapshot, comments: Update
+      Attribute Processor Added, author: anonymous, created: 1661799565727, flowName: sixdee,
     flowDesc: ''}
 layoutVer: 1
 bucketId: 4142302d-083b-4d09-9779-05f29302f29e
