@@ -1,5 +1,6 @@
 flows:
-  0b1cf27f-b804-40ff-9b69-ed73913d8408: {ver: 3, file: demo.snapshot, comments: Filename
-      Added, author: anonymous, created: 1661798532982, flowName: demo, flowDesc: ''}
+  0b1cf27f-b804-40ff-9b69-ed73913d8408: {ver: 4, file: demo.snapshot, comments: Log
+      Message Processor Added, author: anonymous, created: 1661799643903, flowName: demo,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 32888f31-6f48-487e-bec8-56081d3390ac
