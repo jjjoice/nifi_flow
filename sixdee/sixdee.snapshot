@@ -408,7 +408,6 @@
           "properties" : {
             "character-set" : "UTF-8",
             "File Size" : "0B",
-            "filename" : "HelloWorld.csv",
             "Batch Size" : "1",
             "Unique FlowFiles" : "false",
             "format" : "yyyy-MM-dd",
@@ -432,12 +431,6 @@
               "displayName" : "Mime Type",
               "identifiesControllerService" : false,
               "name" : "mime-type",
-              "sensitive" : false
-            },
-            "filename" : {
-              "displayName" : "filename",
-              "identifiesControllerService" : false,
-              "name" : "filename",
               "sensitive" : false
             },
             "generate-ff-custom-text" : {
