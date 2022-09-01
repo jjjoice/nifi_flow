@@ -16,6 +16,66 @@
           "destination" : {
             "comments" : "",
             "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+            "id" : "0f57cdd2-d376-3b3c-8fbd-8706cb6b4920",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+          "identifier" : "7d763517-cd44-3224-a840-1c44bd829f5a",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+            "id" : "d115ba11-3885-38ac-8665-c2b3ebb56e91",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+            "id" : "d115ba11-3885-38ac-8665-c2b3ebb56e91",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+          "identifier" : "b4dc07d2-fc41-3345-9b36-1c39c3d608fe",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output stream" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+            "id" : "7a4c6724-4c95-3d27-b130-e47a602e40f0",
+            "name" : "ExecuteStreamCommand",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
             "id" : "7a4c6724-4c95-3d27-b130-e47a602e40f0",
             "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
@@ -35,36 +95,6 @@
             "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
             "id" : "5553fa26-46a9-3456-a21a-fe45b50a8c1c",
             "name" : "GenerateFlowFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
-            "id" : "0f57cdd2-d376-3b3c-8fbd-8706cb6b4920",
-            "name" : "LogMessage",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
-          "identifier" : "dcd53cdf-4e08-3b43-bc5c-162d09537dad",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "output stream" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
-            "id" : "7a4c6724-4c95-3d27-b130-e47a602e40f0",
-            "name" : "ExecuteStreamCommand",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -114,6 +144,63 @@
         },
         "processGroups" : [ ],
         "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-update-attribute-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.13.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "a44ce3a6-964c-3135-9ea9-c229b993bb77",
+          "identifier" : "d115ba11-3885-38ac-8665-c2b3ebb56e91",
+          "name" : "UpdateAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 920.0,
+            "y" : 680.0
+          },
+          "properties" : {
+            "Store State" : "Do not store state",
+            "canonical-value-lookup-cache-size" : "100"
+          },
+          "propertyDescriptors" : {
+            "Delete Attributes Expression" : {
+              "displayName" : "Delete Attributes Expression",
+              "identifiesControllerService" : false,
+              "name" : "Delete Attributes Expression",
+              "sensitive" : false
+            },
+            "Store State" : {
+              "displayName" : "Store State",
+              "identifiesControllerService" : false,
+              "name" : "Store State",
+              "sensitive" : false
+            },
+            "canonical-value-lookup-cache-size" : {
+              "displayName" : "Cache Value Lookup Cache Size",
+              "identifiesControllerService" : false,
+              "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "Stateful Variables Initial Value" : {
+              "displayName" : "Stateful Variables Initial Value",
+              "identifiesControllerService" : false,
+              "name" : "Stateful Variables Initial Value",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "success" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -265,7 +352,7 @@
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 944.0,
+            "x" : 1456.0,
             "y" : 680.0
           },
           "properties" : {
