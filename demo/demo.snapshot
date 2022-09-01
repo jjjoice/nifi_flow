@@ -46,13 +46,13 @@
           "destination" : {
             "comments" : "",
             "groupId" : "e02854ff-13f8-3567-83dc-5a63a9fddd9a",
-            "id" : "85adf0f0-e60f-314b-a55c-582883647488",
+            "id" : "bb4e9a27-d379-3246-ae28-0665687391bd",
             "name" : "LogMessage",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "e02854ff-13f8-3567-83dc-5a63a9fddd9a",
-          "identifier" : "30d29eb6-f30f-3db0-b09a-891348c8ac3c",
+          "identifier" : "73082899-4d50-3843-b1f0-ef18d56f2a47",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -433,12 +433,12 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "e02854ff-13f8-3567-83dc-5a63a9fddd9a",
-          "identifier" : "85adf0f0-e60f-314b-a55c-582883647488",
+          "identifier" : "bb4e9a27-d379-3246-ae28-0665687391bd",
           "name" : "LogMessage",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 32.0,
-            "y" : 624.0
+            "x" : -24.0,
+            "y" : 608.0
           },
           "properties" : {
             "log-level" : "info"
